@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header {
+  margin-top: 51px;
+}
+
+.header__menu{
+    font-family: "Gilroy-SemiBold";
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header__menu > a:hover{
+    color: #F25822;
+}
+
+.top__info {
+  margin-top: 96px;
+}
+
+.title{
+    font-family: 'Gilroy-Bold';
+font-size: 60px;
+line-height: 70px;
+
+color: #000000;
+}
+
+.text {
+  margin-top: 17px;
+ 
+  font-family: 'Gilroy-Medium';
+font-size: 20px;
+line-height: 23px;
+
+color: #888888;
+}
+
+.top__buttons {
+  margin-top: 37px;
+}
+
+.top__img {
+  margin-top: 94.71px;
+}
+
+.logos {
+  margin-top: 259px;
+}
