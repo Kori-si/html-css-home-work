@@ -8,6 +8,7 @@
 
 body {
   font-family: "Geologica", sans-serif;
+  background: #fff;
 }
 
 .container {
@@ -41,7 +42,6 @@ body {
 
 .top__info {
   margin-top: 96px;
-
 }
 
 .title {
@@ -80,7 +80,6 @@ body {
   color: #ffffff;
   padding: 1rem 2rem;
   background: #f25822;
-  
 }
 
 .btn__1:hover {
@@ -113,4 +112,72 @@ body {
   display: flex;
   margin-top: 259px;
   gap: 48px;
+}
+
+
+
+.aside__list {
+  display: grid;
+  margin: 100px 0;
+  grid-template-columns: repeat(3, 370px);
+  gap: 60px;
+}
+
+.list {
+  padding: 40px 30px 25px 30px;
+}
+
+.subtitle__content {
+  margin-top: 25px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.text__content {
+  margin-top: 17px;
+
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.etc__list {
+  display: inline-block;
+  margin-top: 25px;
+
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.content__item {
+  margin: 92px 0 100px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.content__item__block {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.item {
+  background: #fff;
+}
+
+.text__content__item {
+  padding: 22px 30px 39px;
+
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #aaaaaa;
 }
